@@ -1,0 +1,518 @@
+html{height: 100%;width: 100%}
+body{font-family:'PingFang SC','Microsoft Yahei','黑体';min-height: 100%;padding-bottom: 125px;position: relative}
+a{color: inherit}
+a:hover{text-decoration: none}
+.web-head{
+    width: 1200px;
+    margin: 0 auto 20px;
+    padding-top: 16px;
+}
+.web-head .menu-content{
+    text-align: right;
+}
+.web-head .menu-content a{
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    margin: 0 32px;
+    line-height: 57px;
+    text-decoration: none;
+    border-bottom: 2px solid  white;
+}
+.web-head .menu-content a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid  #4DACFF;
+}
+.web-head .menu-content a.router-link-active{
+    border-bottom: 2px solid  #4DACFF;
+}
+.web-body{
+    width: 100%;
+    position: relative;
+}
+.web-body .banner-size{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.web-body .banner-size .banner-div-text{
+    position: absolute;
+    left: 18.75%;
+    top: 27.11%;
+}
+.banner-div-text h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+.banner-div-text h2{
+    color: #2E2F30;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom:10px solid #1B81FF;
+    border-radius: 2px;
+}
+.banner-div-text h3{
+    font-size: 33px;
+    color: #333333;
+    margin: 0;
+    line-height:45px;
+}
+.banner-div-text h4{
+    font-size: 38px;
+    color: #2E2F30;
+     margin: 0;
+    line-height: 45px;
+ }
+.product-box{
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+}
+.product-box .text-box{
+    padding: 63px 100px 0;
+    min-height: 500px;
+}
+.product-box .img-box{
+    width: 600px;
+    height: 500px;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+.product-box .product-title{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+.product-box .product-content{
+
+    font-size: 20px;
+    color: #5E5E5E;
+    height: 129px;
+    letter-spacing: 1px;
+    line-height: 34px;
+
+}
+.product-box .go-btn{
+    width: 150px;
+    height: 46px;
+    border: 1px solid #1B81FF;
+    border-radius: 100px;
+
+    font-size: 16px;
+    color: #1B81FF;
+    letter-spacing: 0;
+    background: none;
+    margin-top: 134px;
+}
+.product-box .go-btn:hover{
+    background: #4DACFF;
+    color: white;
+    border: 1px solid white;
+}
+
+.web-footer{
+    width: 100%;
+    background: #2D3237;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.web-footer a{color: inherit}
+.web-footer .web-bottom{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+}
+.web-footer .web-bottom ul{
+    list-style: none;
+    padding:30px 0 25px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin: 0;
+}
+.web-footer .web-bottom ul li{
+
+    margin: 0 13px;
+}
+.web-footer .web-bottom ul li:last-child{
+    margin: 0 0 0 13px;
+}
+.web-footer .web-bottom .copy{
+    text-align: right;
+    padding-bottom: 30px;
+    margin: 0;
+    font-weight: 200;
+}
+
+
+.web-body .about .banner-div-text{
+    top: 19.23%;
+}
+.about .banner-div-text h1,.about .banner-div-text h2,.about .banner-div-text h3,.about .banner-div-text h4{
+    color: white;
+}
+.about .banner-div-text h2{
+    border-bottom:10px solid #FFDD48 ;
+}
+
+
+/*关于的菜单*/
+.product-box .menu-ul{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    flex-direction:row ;
+    margin: 20px 0;
+}
+.product-box .menu-ul a{
+    width: 200px;
+    height: 46px;
+    background: white;
+    border: 1px solid #999999;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+    line-height: 42px;
+    margin-right: 20px;
+    font-weight: 200;
+    display: block;
+}
+.product-box .menu-ul a.router-link-active{
+    background: #0F79FF;
+    border: 1px solid #0F79FF;
+    color: white;
+}
+.about .about-div{
+    padding: 0 0 30px;
+    background: #FCFAFF;
+}
+.about .about-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    padding: 30px 0 10px;
+}
+.about .about-text{
+
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.about .about-img{
+    text-align: center;
+
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 1px;
+}
+.product-box .develop-box{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.product-box .develop-box:last-child{
+    margin-bottom: 0;
+}
+.develop-box .develop-time{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.develop-box .develop-time span:nth-child(1){
+    font-size: 42px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 54px;
+}
+.develop-box .develop-time span:nth-child(2){
+
+    font-size: 32px;
+    color: #FFFFFF;
+    background: #0F79FF;
+    border-radius: 2px;
+    width: 100px;
+    height: 46px;
+    text-align: center;
+}
+.develop-box .develop-icon{
+    width: 100px;
+    height: 100px;
+    margin-right: 45px;
+    position: relative;
+}
+.develop-box .develop-icon:before{
+    content: '';
+    width: 2px;
+    height: 55px;
+    background: #D8D8D8;
+    position: absolute;
+    left: 49px;
+    top: 102px;
+}
+.develop-box:last-child .develop-icon:before{
+    content: '';
+    background: none;
+}
+.develop-box .develop-text{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content:center;
+
+    font-size: 16px;
+    color: #333333;
+    line-height: 22px;
+    width: 305px;
+}
+.develop-box .develop-text p{
+    margin: 0;
+}
+.develop-box .develop-text .blue{
+    color: #0F79FF;
+}
+
+/*公司*/
+.media-index{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    padding: 0 55px;
+}
+.media-index .media-li{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    border-bottom: 1px solid #D8D8D8;
+}
+.media-index .media-li .media-li-left{
+    width: 182px;
+    height: 182px;
+    overflow: hidden;
+    margin-right: 40px;
+    display: block;
+}
+.media-index .media-li .media-li-right{
+    width: 880px;
+    position: relative;
+}
+.media-index .media-li .media-li-right p:nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.media-index .media-li .media-li-right p:nth-child(2){
+
+    font-size: 16px;
+    color: #999999;
+    line-height: 30px;
+    height: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.media-index .media-li .media-li-right .more-btn{
+
+    font-size: 18px;
+    color: #666666;
+    background: none;
+    border: none;
+    box-shadow: none;
+    float: right;
+}
+.page-bar ul{
+    display: flex;
+    display: -webkit-flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 30px 0 20px;
+}
+.page-bar ul li{
+    display: inline-block;
+    margin: 0 5px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    line-height: 42px;
+    text-align: center;
+}
+.page-bar ul li.on{
+    color: white;
+    background: #0F79FF;
+    border: 1px solid #0F79FF;
+}
+.media-content{
+    margin-top: -96px;
+    background: white;
+    padding: 20px 0 30px;
+}
+.media-content .back-btn{
+    width: 200px;
+    height: 46px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0F79FF;
+    text-align: center;
+    border: 1px solid #0F79FF;
+    border-radius: 100px;
+    background: none;
+}
+.media-content .back-btn span{
+    margin-right: 5px;
+}
+.media-content .news_title{
+    width: 100%;
+    font-weight: 200;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    padding: 20px 200px 30px;
+}
+.media-content .news_content{
+
+    font-size: 18px;
+    color: #666666;
+    text-align: justify;
+    line-height: 32px;
+    padding: 0 200px;
+}
+.media-content .news_content p{
+    text-indent: 2em;
+}
+.media-content .news_content img{
+    margin: 50px auto;
+    display: block;
+}
+
+
+/*合作*/
+.contact-div{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    margin: 40px 0 150px;
+}
+.contact-div div{
+    margin: 0 88px;
+}
+.contact-div div h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #333333;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+.contact-div div span{
+    font-weight: 200;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+/*体验*/
+.web-body .experience .banner-div-text{
+    top: 19.23%;
+}
+.experience .banner-div-text h1,.experience .banner-div-text h2{
+    color: #333333;
+}
+.experience .banner-div-text h3,.experience .banner-div-text h4{
+    color: #666666;
+ }
+.experience .banner-div-text h2{
+    border-bottom: 10px solid #FFDD48 ;
+}
+.experience .product-box{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.experience .product-box:before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.experience .experience-size{
+    width: 590px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 26px 10px;
+    border-bottom: 1px solid #D8D8D8;
+}
+.experience .experience-size.on{
+    border-bottom: 1px solid white;
+}
+.experience .experience-size:nth-child(2n){
+    margin-left: 10px;
+}
+.experience .experience-size:nth-child(2n-1){
+    margin-right: 10px;
+}
+.experience-size .program-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    width: 150px;
+    text-align: center;
+}
+.experience-size .program-content{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+.program-content .left-box{
+    width: 150px;
+    text-align: center;
+    margin-right: 25px;
+    display: block;
+}
+.pam-content .left-box p{width: 150px;height: 150px;overflow: hidden;display: block}
+.pam-content .left-box span{
+    font-size: 14px;
+    color: #5E5E5E;
+    letter-spacing: 1.05px;
+}
+.program-content .right-box{
+    width: 375px;
+    font-size: 16px;
+    color: #5E5E5E;
+    letter-spacing: 1px;
+    line-height: 30px;
+    /*word-wrap:break-word;*/
+}
+
+
+@media screen and (max-width: 1400px){
+    .banner-div-text{
+        left: 12.75% !important;
+        top:18% !important;
+    }
+    .web-body .about .banner-div-text,.web-body .experience .banner-div-text{
+        top:7% !important;
+    }
+}
